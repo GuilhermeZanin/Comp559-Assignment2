@@ -4,6 +4,7 @@ import java.awt.Font;
 
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
+import javax.vecmath.Vector2d;
 
 import mintools.parameters.BooleanParameter;
 import mintools.parameters.DoubleParameter;
@@ -65,6 +66,10 @@ public class RobustCCD {
     	// use minDist.getValue() as the thickness
     	// use your spring stiffness for the repulsion stifness, or create 
     	// new parameters and set their value!
+    	
+    	//doing the repulsion forces (spring based repulsion forces)
+    	Vector2d d = new Vector2d();
+    	
     }
     
     /**
