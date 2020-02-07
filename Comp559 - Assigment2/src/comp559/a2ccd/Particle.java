@@ -72,5 +72,13 @@ public class Particle {
         Point2d tmp = new Point2d( x, y );
         return tmp.distance(p);
     }
+
+    // if the particle si pinned the mass is considered close to infinite, if not it just returns its mass
+    public Double getMass(){
+        if(pinned==true){
+            return Double.POSITIVE_INFINITY;
+        }
+        return mass;
+    }
    
 }
