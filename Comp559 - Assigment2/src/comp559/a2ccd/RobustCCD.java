@@ -70,6 +70,17 @@ public class RobustCCD {
     	//doing the repulsion forces (spring based repulsion forces)
     	Vector2d d = new Vector2d();
     	
+    	//Do for every particle in the partyclesystem
+    	for(Particle tempParticle : system.particles) {
+    		
+    		for(Spring tempSpring : system.springs) {
+    			//tempSpring.ksb;
+    		}
+    		
+    		//if root t* belongs to (0,h] and alpha belongs to (0,1]
+    		//if(root)
+    		
+    	}
     }
     
     /**
